@@ -1,3 +1,7 @@
 
 _.Res/corsica.ico
 /_.Sources/Scraps
+/_.Cache
+/_.Progs/*/
+/_.ProgsPend
+*_stripped.au3

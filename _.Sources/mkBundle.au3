@@ -3,7 +3,7 @@
 #AutoIt3Wrapper_Outfile_x64=..\mkBundle.exe
 #AutoIt3Wrapper_UseUpx=y
 #AutoIt3Wrapper_Change2CUI=y
-#AutoIt3Wrapper_Res_Fileversion=23.926.1339.98
+#AutoIt3Wrapper_Res_Fileversion=23.926.1339.100
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
 #AutoIt3Wrapper_Res_Fileversion_First_Increment=y
 #AutoIt3Wrapper_Res_Language=1033
@@ -41,7 +41,7 @@ Global $sBaseDir=@ScriptDir
 If Not @Compiled Then $sBaseDir=@ScriptDir&"\.."
 Global $sCacheDir=$sBaseDir&"\_.Cache"
 Global $sProgDir=$sBaseDir&"\_.Progs"
-Global $sOutPath=$sBaseDir&"\.."
+Global $sOutPath=$sBaseDir&"\_.dist"
 Global $aProgs[1][0]
 
 If Not _ScanProgs() Then
