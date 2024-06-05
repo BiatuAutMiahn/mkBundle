@@ -5,3 +5,4 @@ _.Res/corsica.ico
 /_.Progs/*/
 /_.ProgsPend
 *_stripped.au3
+/_.dist
